@@ -27,8 +27,8 @@ app.get('/', (req, res) => {
 app.get('/service', (req, res) => {
     res.render('service', {
         title: "SERVICE",
-        name: "Mohamed",
-        city: "Abu Hamad",
+        name: "Ziad",
+        city: "Assiut",
         age: 18,
         img2: "images/ziad.jpg"
     });
@@ -37,7 +37,7 @@ app.get('/service', (req, res) => {
 app.get('/team', (req, res) => {
     res.render('team', {
         title: "TEAM",
-        name: "Arthur",
+        name: "Ahmed",
         city: "cairo",
         age: 18,
         img3: "images/3333.png"
